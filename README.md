@@ -1,6 +1,5 @@
-# NodeJS Server Template
-made only with nodejs and its built in modules
-<br> nothing much here just use it lmao
+# Bayer Free State Website
+This is the official website of the Bayer Free State Discord server.
+In development
 
-# License
-code is licensed under [The Unlicense](LICENSE).
+[Invite link](https://discord.gg/eDfH73F)
