@@ -5,7 +5,7 @@ const url = require("url");
 const path = require("path");
 
 const mimeTypes = require("./mimeTypes.json"); //taken from internet
-const port = 8080; //port
+const port = process.env.PORT || 8080; //port
 const clientFilesPath = "./data"; //the directory that server will get data from
 const apiFileName = "/api.js"; //execute js file
 const htmlFileName = "/index.html"; //send html file back to browser
@@ -48,4 +48,4 @@ http.createServer((req, res) => {;
             });    
         });
     }
-}).listen(process.env.PORT || port, null, null, () => console.log("Server on, port 8080"));
+}).listen(port, null, null, () => console.log(`Server on, port ${port}`));
