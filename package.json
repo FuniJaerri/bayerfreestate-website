@@ -1,0 +1,20 @@
+{
+  "name": "nodejs-server-template",
+  "version": "1.0.0",
+  "description": "made only with nodejs and its built in modules\r <br> nothing much here just use it lmao",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FuniJaerri/nodejs-server-template.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/FuniJaerri/nodejs-server-template/issues"
+  },
+  "homepage": "https://github.com/FuniJaerri/nodejs-server-template#readme"
+}
