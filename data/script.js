@@ -12,3 +12,14 @@ function xhttpRequest() {
     xmlhttp.open("GET", "/?data=ae", true);
     xmlhttp.send();
 }
+
+let navbar = document.getElementsByTagName("nav")[0];
+let sticky = navbar.offsetTop;
+
+window.onscroll = () => {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+    } else {
+        navbar.classList.remove("sticky");
+    }
+}
