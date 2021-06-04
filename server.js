@@ -22,7 +22,7 @@ http.createServer((req, res) => {;
                 if (err.code == 'ENOENT') res.writeHead(404);
                 else res.writeHead(500);  
                 return res.end();
-            } else
+            } 
 
             if (stats.isDirectory()) {
                 let data = require(filePath + apiFileName)(req, parsedURL);
